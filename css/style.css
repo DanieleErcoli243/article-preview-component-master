@@ -30,7 +30,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    gap: 20px;
 }
 
 .share{
@@ -92,16 +92,14 @@ img {
 
     .card-footer{
         padding: 20px 40px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        
 
         figure{
             display: flex;
             gap: 20px;
 
             img {
-                max-width: 50px;
+                max-width: 35px;
                 border-radius: 50%;
             }
 
@@ -144,7 +142,7 @@ img {
     
         ul {
             list-style-type: none;
-            gap: 20px;
+            
         }
     }
 }
