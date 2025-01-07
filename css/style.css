@@ -12,12 +12,13 @@
 
 body {
     background-color: hsl(210, 46%, 95%);
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 /* utili */
 
@@ -28,8 +29,26 @@ body {
 /* container */
 
 .container {
-    max-width: 300px;
+    max-width: 320px;
     margin: 0 auto;
+    padding: 50px 0;
+}
 
-    
+/* card */
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+
+    .card-header {
+
+        img {
+            border-radius: 10px 10px 0 0;
+
+        }
+    }
+
+    .card-body {
+        
+    }
 }
