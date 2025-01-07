@@ -124,9 +124,11 @@ img {
         border-radius: 50%;
         border: none;
         
-        /* img:hover{
+        
+    }
 
-        } */
+    button:hover{
+        background-color: hsl(214, 17%, 51%);
     }
 
     #share {
