@@ -197,9 +197,12 @@ img {
             .card-header {
                 flex-basis: 45%;
                 figure {
+                    
+
                     img {
+                        
                         border-radius: 10px 0 0 10px;
-                        height: 100%;
+                        
                     }
                 }
 
@@ -208,6 +211,16 @@ img {
 
             .card-body {
                 flex-basis: 55%;
+
+                
+
+                h1 {
+                    font-size: 18px;
+                }
+
+                p {
+                    font-size: 11px;
+                }
 
                 #share{
                     border-radius: 10px;
