@@ -213,9 +213,10 @@ img {
                     border-radius: 10px;
                     position: absolute;
                     bottom: 50%;
-                    right: 0;
-                    transform: translate(35%, 50%);
-
+                    left: 65%;
+                    width: 30%;
+                    transform: translate(38%, 50%);
+                    
                     .share-active{
                         display: none;
                     }
