@@ -219,15 +219,14 @@ img {
                 #share::before {
                     content: '';
                     position: absolute;
-                    left: 50%;
-                    bottom: -20px;
-                    transform: translate(-35%, -50%); 
+                    left: 45%;
+                    bottom: -10px;
                     transform: rotate(180deg);
                     height: 0;
                     width: 0;
-                    border-left: 20px solid transparent;
-                    border-right: 20px solid transparent;
-                    border-bottom: 20px solid hsl(217, 19%, 35%);
+                    border-left: 15px solid transparent;
+                    border-right: 15px solid transparent;
+                    border-bottom: 15px solid hsl(217, 19%, 35%);
                 }
             }
         }
