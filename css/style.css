@@ -65,7 +65,7 @@ img {
 .card {
     background-color: white;
     border-radius: 10px;
-
+    position: relative;
     .card-header {
 
         img {
@@ -92,7 +92,7 @@ img {
         
         .card-footer{
             
-    
+
             figure{
                 display: flex;
                 gap: 20px;
@@ -129,14 +129,19 @@ img {
         }
     
         #share {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
             background-color: hsl(217, 19%, 35%);
             
             border-radius: 0 0 10px 10px;
-            padding: 20px 40px;
+            padding: 20px;
         
             h3 {
                 color: hsl(214, 17%, 51%);
                 text-transform: uppercase;
+                font-size: 13px;
             }
         
             ul {
