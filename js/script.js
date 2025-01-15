@@ -1,6 +1,7 @@
 // recupero il bottone dal DOM
 
 const shareBtn = document.querySelector('.share');
+const activeBtn = document.querySelector('.share-active');
 const cardFooter = document.querySelector('.card-footer');
 const shareBox = document.getElementById('share');
 
@@ -16,4 +17,11 @@ shareBtn.addEventListener('click', () => {
         shareBox.classList.remove('d-flex');
         shareBox.classList.add('d-none');   
     }
+})
+
+// aggancio un ascoltatore di eventi al bottone nel box dei link
+
+activeBtn.addEventListener('click', () => {
+    shareBox.classList.remove('d-flex');
+    shareBox.classList.add('d-none');  
 })

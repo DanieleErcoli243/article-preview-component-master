@@ -148,6 +148,10 @@ img {
                 list-style-type: none;
                 
             }
+
+            .share-active {
+                margin-right: 20px;
+            }
         }
     }
 }
@@ -197,12 +201,12 @@ img {
             .card-header {
                 flex-basis: 45%;
                 figure {
-                    
+                    height: 100%;
 
                     img {
                         
                         border-radius: 10px 0 0 10px;
-                        
+                        height: 100%;
                     }
                 }
 
