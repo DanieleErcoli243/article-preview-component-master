@@ -6,8 +6,14 @@ const shareBox = document.getElementById('share');
 
 // aggancio un ascoltatore di eventi al bottone
 shareBtn.addEventListener('click', () => {
-    // aggiungo e tolgo le classi necessarie per mostrare i link
-    
-    shareBox.classList.remove('d-none');
-    shareBox.classList.add('d-flex');
+    // controllo se aggiungere o meno le classi per mostrare i link
+
+    if (shareBox.className === 'd-none') {
+        shareBox.classList.remove('d-none');
+        shareBox.classList.add('d-flex');
+
+    } else if (shareBox.className === 'd-flex') {
+        shareBox.classList.remove('d-flex');
+        shareBox.classList.add('d-none');   
+    }
 })
